@@ -63,6 +63,8 @@ def all_supplies_in_holidays(holiday_hash)
       binding.pry
       puts "  #{name.to_s.split("_").map {|value| value.capitalize}.join(" ")}: #{supply.join(", ")}"   #starting with the first level hash, 
                                                                                                         #then moving down, value == iteration
+                                                                                                        #underscore "_" is needed
+                                                                                                        #to keep on one line
       
     end
   end
