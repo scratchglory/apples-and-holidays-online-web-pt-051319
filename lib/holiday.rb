@@ -80,6 +80,7 @@ def all_holidays_with_bbq(holiday_hash)
       # binding.pry
       if supply.has_value?("BBQ")
        arr << hname
+     end
     end
   end
 end
