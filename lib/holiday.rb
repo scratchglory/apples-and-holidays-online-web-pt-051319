@@ -60,7 +60,7 @@ def all_supplies_in_holidays(holiday_hash)
     puts "#{season.capitalize}:"
       # binding.pry
     holiday_name.each do |name, supply|
-      binding.pry
+      # binding.pry
       puts "  #{name.split("_").map {|value| value.capitalize}.join(" ")}: #{supply.join(", ")}"   #starting with the first level hash, 
                                                                                                         #then moving down, value == iteration
                                                                                                         #underscore "_" is needed
