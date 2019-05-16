@@ -77,7 +77,8 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash.each do |season_name, holiday_name|
     holiday_name.each do |hname, supply|
       binding.pry
-      if supply.has_key
+      if supply.has_value?("BBQ")
+        
     end
   end
 end
